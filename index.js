@@ -4,9 +4,9 @@ const path = require('path')
 const { program } = require('commander')
 const generateConfig = require('./generateConfig')
 
-generateConfig('comp-gen.config.json')
+const configPath = 'comp-gen.config.json'
+generateConfig(configPath)
 
-const configPath = path.join(__dirname, 'comp-gen.config.json')
 const config = JSON.parse(fs.readFileSync(configPath, 'utf8'))
 
 program
