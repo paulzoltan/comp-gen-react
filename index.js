@@ -4,7 +4,7 @@ const path = require('path')
 const { program } = require('commander')
 const generateConfig = require('./generateConfig')
 
-const configPath = 'comp-gen.config.json'
+const configPath = 'comp-gen-react.config.json'
 generateConfig(configPath)
 
 const config = JSON.parse(fs.readFileSync(configPath, 'utf8'))

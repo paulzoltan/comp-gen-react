@@ -1,18 +1,18 @@
-# Comp-Gen
+# Comp-Gen-React
 
-Comp-Gen is a command-line tool for generating React components with optional TypeScript and CSS support. It allows you to quickly create a new React component with a single command.
+Comp-Gen-React is a command-line tool for generating React components with optional TypeScript and CSS support. It allows you to quickly create a new React component with a single command.
 
 ## Installation
 
-Comp-Gen can be installed globally via npm:
+Comp-Gen-React can be installed globally via npm:
 
 ```
-npm install -g comp-gen
+npm install -g comp-gen-react
 ```
 
 ## Usage
 
-To use Comp-Gen, simply type `comp-gen` followed by the name of the component you want to create. You can use the following options to customize your component:
+To use Comp-Gen-React, simply type `comp-gen-react` followed by the name of the component you want to create. You can use the following options to customize your component:
 
 - `-t, --typescript`: Use TypeScript
 - `-T, --no-typescript`: Don't use TypeScript
@@ -24,16 +24,16 @@ To use Comp-Gen, simply type `comp-gen` followed by the name of the component yo
 For example, to create a new component named `MyComponent` with TypeScript and CSS support, you can run:
 
 ```
-comp-gen MyComponent -t -c
+comp-gen-react MyComponent -t -c
 ```
 
 By default, components are created in the `src/components` directory. You can specify a different directory using the `-P, --path` option.
 
 ## Configuration
 
-Comp-Gen uses a configuration file to store your preferred settings. If you run `comp-gen` without a configuration file, it will prompt you to answer a few questions to generate a default configuration file.
+Comp-Gen-React uses a configuration file to store your preferred settings. If you run `comp-gen-react` without a configuration file, it will prompt you to answer a few questions to generate a default configuration file.
 
-The configuration file is stored as a JSON file named `comp-gen.config.json`. You can modify this file manually to change your default settings.
+The configuration file is stored as a JSON file named `comp-gen-react.config.json`. You can modify this file manually to change your default settings.
 
 ## License
 
